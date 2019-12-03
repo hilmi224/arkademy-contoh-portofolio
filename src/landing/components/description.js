@@ -6,7 +6,7 @@ class Description extends Component {
         return (
             <div class="flex-content">
                 <div class="content">
-                    <p className="better"> a Better way to
+                    <p className="better">A  Better way to
                     </p>
                        <p className="travel">Travel to bali</p>
                        <small>cheapest and Easyer</small>
