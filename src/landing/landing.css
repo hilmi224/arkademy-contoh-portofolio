@@ -1,5 +1,9 @@
 /** wadah dari main content **/
 
+
+.logo{
+    margin-top: 30px;
+}
 .wrapper {
     position: absolute;
     top: 0;
@@ -8,6 +12,7 @@
     left: 0;
     /* padding : 100px; */
 }
+
 
 .flex-wrapper {
     flex-direction: column;
@@ -23,7 +28,7 @@
 /** membuat  cover bacground image  **/
 
 .with-image {
-    background-image: url("../storage/bgk.jpg");
+    background-image: url("../storage/ImageBackground.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -39,12 +44,10 @@
 }
 
 .top-name {
-    border: 5px solid white;
     padding: 5px;
 }
 
 .top-name a {
-    color: white;
     text-decoration: none;
 }
 
@@ -52,13 +55,13 @@
 
 .content {
     font-weight: 400;
-    width: 50%;
+    margin-bottom:50;
 }
 
 .content p {
     font-size: 2rem;
-    color: white;
     text-align: center;
+    margin-bottom: 9px;
 }
 
 .flex-content {
@@ -67,6 +70,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.better{
+    color: white;
+    margin: -30px;
 }
 
 /** membuat form **/
@@ -86,12 +93,27 @@
 .flex-form .flex-parent-input-form .flex-input-form {
     margin-right: 10px;
     border-radius: 5px;
-    background: white;
+    border: 2px solid orange;
     padding: 10px;
     overflow: hidden;
     display: flex;
+    width: 150px;
+    margin-top: 80px;
+    
 }
-
+small{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 50px;
+}
+a{
+    color: white;
+    margin-left: 25px;
+}
+.travel{
+    color: orange;
+    margin: auto;
+}
 .flex-form .flex-input-form .input-form {
     border: 0;
     height: 100%;
@@ -102,17 +124,20 @@
 
 .flex-form .flex-button-form {
     flex: 0.4;
+    margin-bottom: 150px;
 }
 
 .flex-form .flex-button-form .button-form {
     display: block;
+    width: 150px;
     border-radius: 5px;
-    background: #43a047;
+    background: orange;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
     color: white;
     font-size: 0.8rem;
+    margin-top: 80px;
 }
 
 /**
@@ -125,8 +150,9 @@
     color: white;
     flex: 1;
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     justify-content: flex-end;
+    
 }
 
 .flex-scroll small {
@@ -146,6 +172,5 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: #444;
-    opacity: 0.3;
+    background: rgba(42, 38, 61, 0.82);
 }

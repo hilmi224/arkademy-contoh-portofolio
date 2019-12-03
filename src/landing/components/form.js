@@ -6,13 +6,14 @@ class Form extends Component {
             <div class="flex-form">
                 <div class="flex-parent-input-form">
                     <div class="flex-input-form" >
-                        <input type="text" class="input-form"
-                            placeholder="Masukan email kamu" />
+                    <a href="" class="button-form">
+                        Read More
+                    </a>
                     </div>
                 </div>
                 <div class="flex-button-form">
                     <a href="" class="button-form">
-                        AMBIL AKSES
+                        Reservation
                     </a>
                 </div>
             </div>
